@@ -56,3 +56,13 @@ body{
     padding: 20px;
     border-radius: 1rem;
 }
+
+@-o-viewport{
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@-ms-viewport{
+    width: extend-to-zoom;
+    zoom: 1;
+}
